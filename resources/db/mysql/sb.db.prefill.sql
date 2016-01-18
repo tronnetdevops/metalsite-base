@@ -1,0 +1,23 @@
+-- INSERT INTO `locations` (`address`, `activated`) VALUES ('Unknown / Not Stated', 0);
+--
+-- UPDATE `locations` SET `id`=0 WHERE `id`=1;
+--
+-- INSERT INTO `accounts` (`username`, `fname`, `lname`, `email`, `password`, `bio`, `activated`) VALUES ('proxy', 'Mr.', 'Proxy', 'proxy@proxy.com', 'proxy', '', 1);
+--
+-- UPDATE `accounts` SET `id`=0 WHERE `id`=1;
+--
+-- INSERT INTO `acts` (`title`, `description`, `activated`) VALUES ('No Band', '', 0);
+--
+-- UPDATE `acts` SET `id`=0 WHERE `id`=1;
+--
+-- INSERT INTO `venues` (`title`, `description`, `activated`) VALUES ('No Venue', '', 0);
+--
+-- UPDATE `venues` SET `id`=0 WHERE `id`=1;
+--
+-- INSERT INTO `events` (`title`, `description`, `instructions`, `start`, `end`, `activated`) VALUES ('No Event', '', '', '2015-1-1 00:00:00', '2015-1-1 01:00:00', 0);
+--
+-- UPDATE `events` SET `id`=0 WHERE `id`=1;
+--
+-- INSERT INTO `tags` (`slug`, `title`) VALUES ('empty', 'empty');
+--
+-- UPDATE `tags` SET `id`=0 WHERE `id`=1;
